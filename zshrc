@@ -1,3 +1,6 @@
+#export java home
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # modify the prompt to contain git branch name if applicable
 git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null)
