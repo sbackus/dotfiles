@@ -19,7 +19,7 @@
   st = status
   up = !git fetch origin && git rebase origin/master
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /config/local_env.yml
   autocrlf = input
 [merge]
   ff = only
@@ -29,3 +29,7 @@
   template = ~/.gitmessage
 [fetch]
   prune = true
+[use]
+	name = Sam Backus
+[user]
+	email = Samuel.Backus@gmail.com
