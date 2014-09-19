@@ -1,3 +1,8 @@
+#exports for Gradeable
+export RACK_ENV=development
+export RAILS_ENV=development
+export ENCRYPTOR=anything
+
 #export java home
 export JAVA_HOME=$(/usr/libexec/java_home)
 
