@@ -2,6 +2,9 @@
 export RACK_ENV=development
 export RAILS_ENV=development
 export ENCRYPTOR=anything
+export AWS_ACCESS_KEY_ID=AKIAJTZPHGDELPS7NURQ
+export AWS_SECRET_ACCESS_KEY=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
+
 
 #export java home
 export JAVA_HOME=$(/usr/libexec/java_home)
